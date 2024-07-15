@@ -67,7 +67,9 @@ u{
     background-color: white;
     width: 100%;
     height:15vh ;
-   
+    /* position: sticky;
+    top: 0; 
+    z-index: 1000;  */
     position: relative;
 }
 .logo img{
@@ -85,9 +87,7 @@ u{
 }
 
 .navbar{
-  /* position: sticky;
-  top: 0; 
-  z-index: 1000;  */
+ 
     text-align: center;
     position: absolute;
     top: 18%;
@@ -802,6 +802,9 @@ font-weight: lighter;
   font-size: 20px;
   color: white;
 }
+.yellow-text{
+  color: yellow;
+}
 .invite{
   color: white;
 }
@@ -875,7 +878,7 @@ font-weight: lighter;
 .twelve{
   height: 20vh;
   margin-top: 5%;
-  /* background-color: #e4980c; */
+
   
 }
 .twelve-button{
@@ -895,7 +898,7 @@ font-weight: lighter;
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-left: 12%;
+  margin-left: 11%;
   gap: 240px;
 }
 
@@ -906,7 +909,7 @@ font-weight: lighter;
 }
 
 .line1{
-  margin-top: 5%;
+  margin-top: 2%;
   color: rgb(211, 208, 208);
 }
 
@@ -918,7 +921,7 @@ font-weight: lighter;
 
 }
 .need-help{
-  margin-right: 6%;
+  margin-right: 20%;
 
 }
 .fourteen h2{
@@ -931,13 +934,16 @@ ul{
   list-style: none;
   color: grey;
   line-height: 1.5em;
-  font-size: 14px;
+  font-size: 16px;
   margin-top: 3%;
 }
 
 .fourteen-right{
   position: relative;
   float: right;
+  margin-right: 5%;
+  /* border: 1px solid yellow; */
+  
 }
 
 .community{
@@ -955,32 +961,46 @@ ul{
 .email-input{
   float: right;
   font-size: 20px;
+  border-bottom-color:#0e3051;
   
   
 }
 
 .sign{
   position: absolute;
-  top: 40%;
-  left: 65%;
+  top: 34%;
+  left: 53%;
   
   color: grey;
   margin-top: 2%;
   width: 40%;
-  font-size: 15px;
+  font-size: 14px;
 }
 .social{
   display: flex;
   position: absolute;
-  left: 70%;
-  
-  
+  left: 53%;
+  top: 62%;
+  gap: 20px;
 }
+.social-text{
+  color: #0e3051;
+  font-size: 14px;
+  font-weight: 600;
+}
+.social-icon{
+  font-size: 15px;
+}
+.social-icon i{
+  color: #0e3051;
+  margin-right: px;
 
+ 
+}
 .fifteen{
   height: 70vh;
   margin-top: 2%;
-  /* background-color: seagreen; */
+
 }
 
 .fifteen-content{
